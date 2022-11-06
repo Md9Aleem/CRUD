@@ -1,0 +1,19 @@
+<div class="container my-3">
+    <h1 class="text" style="margin-left:10px ;font-family: algerian;">Cars List</h1>
+    <table class="table">
+        <thead class="table-dark">
+            <tr>
+                <th>Company Name</th>
+                <th>Car Name</th>
+                <th> </th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr *ngFor="let car of cars">
+                <td>{{car.make}}</td>
+                <td>{{car.model}}</td>
+                <td><a [routerLink]="['/cars','edit',car.id]">View</a></td>
+            </tr>
+        </tbody>
+    </table>
+</div>

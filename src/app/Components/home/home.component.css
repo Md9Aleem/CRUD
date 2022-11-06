@@ -1,0 +1,13 @@
+.outer {
+    background-image: url("https://weblizar.com/wp-content/uploads/2018/08/background.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+}
